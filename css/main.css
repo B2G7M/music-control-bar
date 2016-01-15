@@ -33,7 +33,7 @@ body {
 
 .song {
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -41,7 +41,8 @@ body {
   font-size: .8rem;
   margin: 0;
   color: #666;
-  position: absolute;
+ /* position: absolute;*/
+  text-align: center;
 }
 
 .album {
@@ -66,7 +67,7 @@ body {
   background-color: #aaa;
   position: absolute;
   bottom: 0;
-  left: 10%;
+  left: 90px;
   width: 100%;
 }
 
@@ -87,10 +88,17 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  left: 110px;
+  bottom: 10px;
+  position: absolute;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+
 }
 
 .controls {
@@ -100,16 +108,23 @@ body {
   font-size: 1.8rem;
   line-height: 16px;
   list-style-type: none;
+
 }
 
 .control-shuffle {
-
+  position: absolute;
+  left: 75px;
+  top: 8px;
 }
 
 .control-list {
-
+  position: absolute;
+  left: 75px;
+  top: 8px;
 }
 
 .control-heart {
-
+  position: absolute;
+  left: 75px;s
+  top: 8px;
 }
