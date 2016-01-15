@@ -67,7 +67,7 @@ body {
   background-color: #aaa;
   position: absolute;
   bottom: 0;
-  left: 90px;
+  left: 50px;
   width: 100%;
 }
 
@@ -88,7 +88,7 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
-  left: 110px;
+  left: 55px;
   bottom: 10px;
   position: absolute;
 }
@@ -113,18 +113,18 @@ body {
 
 .control-shuffle {
   position: absolute;
-  left: 75px;
+  left: 55px;
   top: 8px;
 }
 
 .control-list {
   position: absolute;
-  left: 75px;
+  right:8px;
   top: 8px;
 }
 
 .control-heart {
   position: absolute;
-  left: 75px;s
+  right: 40px;
   top: 8px;
 }
